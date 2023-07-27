@@ -8,11 +8,26 @@ main {
     height: 100vh;
 }
 
+
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(0, 0, 33);
     color: white;
     font-family: 'Poppins', sans-serif;
 }
+
+header {
+    width: 100%;
+    position: fixed;
+
+}
+
+
+
 
 nav {
     display: flex;
@@ -20,6 +35,7 @@ nav {
     align-items: center;
     height: 60px;
     background-color: rgb(18, 18, 62);
+
 
 }
 
@@ -185,7 +201,7 @@ nav ul li a:hover {
 
 .fourthSection {
     width: 100%;
-    height: 150vh;
+    height: 100vh;
 
 }
 
@@ -196,8 +212,8 @@ nav ul li a:hover {
 
 .ed {
 
-    width: 500px;
-    height: 230px;
+    width: 550px;
+    height: 150px;
     background-color: rgb(143, 62, 213);
     font-size: 50px;
     margin: 100px;
@@ -207,8 +223,8 @@ nav ul li a:hover {
 }
 
 .ed1 {
-    width: 500px;
-    height: 230px;
+    width: 550px;
+    height: 150px;
     background-color: rgb(143, 62, 213);
     margin-top: 50px;
     margin-left: 700px;
@@ -218,18 +234,44 @@ nav ul li a:hover {
 }
 
 .ed2 {
-    width: 500px;
-    height: 230px;
+    width: 550px;
+    height: 150px;
     background-color: rgb(143, 62, 213);
     color: rgb(255, 255, 255);
     border-radius: 100px;
     text-align: center;
 }
 
-/* website responsiveness start*/
+.degree p {
+    align-items: ;
+    font-size: 1.5rem;
+}
 
 
-@media(max-width:600px) {
+/* contact me star */
+.FifthSection {
+    width: 100%;
+    height: 100vh;
+}
+
+.contact {
+    margin-left: 200px;
+    font-size: 2.5rem;
+}
+
+.FifthSection .contact:hover {
+
+    font-size: 5rem;
+}
+
+
+
+
+
+
+/* website responsiveness star */
+
+@media(max-width:800px) {
     .firstSection {
         display: flex;
         flex-direction: column;
@@ -241,6 +283,10 @@ nav ul li a:hover {
 
     }
 
+    .img {
+        width: 350px;
+    }
+
     .left {
         font-size: 10px;
     }
@@ -248,6 +294,8 @@ nav ul li a:hover {
     .btn {
         margin: 150px;
         margin-left: 30px;
+        margin-right: 10px;
+
     }
 
     .secondSection {
@@ -257,7 +305,8 @@ nav ul li a:hover {
     }
 
     .rightAbout img {
-        width: 300px;
+        width: 200px;
+        margin-top: -150px;
     }
 
     .logo {
@@ -297,7 +346,7 @@ nav ul li a:hover {
     .ed {
 
         width: 400px;
-        height: 230px;
+        height: 152px;
         background-color: rgb(143, 62, 213);
         margin-top: 50px;
         margin: 40px;
@@ -308,9 +357,10 @@ nav ul li a:hover {
 
     .ed1 {
         width: 400px;
-        height: 230px;
+        height: 152px;
         background-color: rgb(143, 62, 213);
         margin-left: 1px;
+        margin-top: 60px;
         color: rgb(255, 255, 255);
         border-radius: 100px;
         text-align: center;
@@ -318,7 +368,7 @@ nav ul li a:hover {
 
     .ed2 {
         width: 400px;
-        height: 230px;
+        height: 152px;
         margin-top: 50px;
         background-color: rgb(143, 62, 213);
         color: rgb(255, 255, 255);
@@ -327,12 +377,43 @@ nav ul li a:hover {
     }
 
     .degree {
-        font-size: 40px;
+        font-size: 10px;
+
+
     }
 
 
 
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: rgb(18, 18, 62);
+
+
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 10px;
+
+    }
+
+    .left {
+        font-size: 1.2rem;
+        margin: 10px;
+    }
+
 
 
 }
-/* website responsiveness end*/
+
+
+
+/* contact me */
