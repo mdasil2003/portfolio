@@ -99,10 +99,11 @@ nav ul li a:hover {
 .btn {
     position: absolute;
     top: 660px;
-    left: 20rem;
+    left: 10rem;
     background-color: rgb(143, 62, 213);
     padding: 7px 12px;
     border-radius: 5px;
+    height: 20px;
 
 }
 
@@ -159,7 +160,7 @@ nav ul li a:hover {
 
 .aboutExtra {
     font-size: 1rem;
-    max-resolution: 50px;
+
 }
 
 
@@ -243,7 +244,7 @@ nav ul li a:hover {
 }
 
 .degree p {
-    align-items: ;
+    align-items: center;
     font-size: 1.5rem;
 }
 
@@ -325,14 +326,14 @@ nav ul li a:hover {
 
     .btn {
         margin: 150px;
-        margin-left: 30px;
+        margin-left: 20px;
         margin-right: 10px;
 
     }
 
     .secondSection {
-        display: flex;
-        flex-direction: column;
+        margin-top: 550px;
+        flex-direction: column-reverse;
 
     }
 
@@ -445,7 +446,7 @@ nav ul li a:hover {
 
 
     .contactBox {
-        width: 300px;
+        width: 200px;
         position: relative;
         margin-left: 40px;
         margin-top: 50px;
@@ -454,7 +455,7 @@ nav ul li a:hover {
     }
 
     .input-field {
-        width: 400px;
+        width: 300px;
         height: 45px;
         border-radius: 20px;
         margin-top: 15px;
